@@ -11,17 +11,19 @@ body {
 }
 
 body {
-    background-color: #a5a5b1;
+    background-color: #7e7eee;
     display: grid;
     place-items: center
     
 }
 
 .card {
-    background-color: #ffffff;
+    background-color: #f05151;
     border-radius: 50px;
-    color: #6f707d;
-    font-family: 'Marcellus', serif
+    color:white;
+    font-family: 'Marcellus', serif;
+    font-weight: bolder;
+    
 }
 
 #heading {
@@ -35,12 +37,13 @@ body {
 
 .temp-details>p>span,
 .grey {
-    color: #a3acc1;
-    font-size: 12px
+    color: #1550da;
+    font-size: 20px
 }
 
 .fa {
-    color: #a5a5b1
+    color:white;
+    font-size: larger;
 }
 
 *:focus {
